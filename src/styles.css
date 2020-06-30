@@ -1,19 +1,27 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  width: 20rem;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  /* justify-content: center;
+  align-items: center; */
+  margin: auto;
 }
 
 .monitor {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  width: 10em;
-  height: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 11em;
+  /* height: 3em; */
   background-color: black;
+  text-align: end;
+}
+
+.value {
   color: white;
+  font-size: 3em;
+  padding: 0.1em;
+  display: inline;
+  word-wrap: break-word;
 }
 
 button {

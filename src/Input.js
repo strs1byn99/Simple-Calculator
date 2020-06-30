@@ -5,7 +5,9 @@ class Input extends Component {
   render() {
     return (
       <div className="monitor">
-        {this.props.input}
+        <span className="value">
+          {this.props.input}
+        </span>
       </div>
     );
   }
